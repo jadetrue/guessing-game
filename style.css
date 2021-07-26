@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+/*
+#292f36 - black almost
+#4ecdc4 - bright blue
+#f7fff7 - white almost
+#ff6b6b - red
+#ffe66d - yellow
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Play', sans-serif;
+  color: #f7fff7;
+  background-color: #292f36;
+}
+
+/* LAYOUT */
+header {
+  position: relative;
+  height: 35vh;
+}
+
+main {
+  height: 65vh;
+  color: #f7fff7;
+  margin-top: 10rem;
+  text-align: center;
+  background-color: #ffe66d;
+}
+
+.left {
+  padding: 1rem;
+  margin: 0;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+/* ELEMENTS STYLE */
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.number {
+  background: #f7fff7;
+  color: #292f36;
+  border-radius: 15px;
+  font-size: 6rem;
+  width: 15rem;
+  padding: 3rem 0rem;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.between {
+  font-size: 1.4rem;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  color: #f7fff7;
+}
+
+.again {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+.guess {
+  background: none;
+  border: 4px solid #f7fff7;
+  font-family: inherit;
+  color: inherit;
+  font-size: 5rem;
+  padding: 2.5rem;
+  width: 25rem;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  background-color: #f7fff7;
+  color: #292f36;
+  font-size: 2rem;
+  font-family: inherit;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.btn:hover {
+  background-color: #ccc;
+}
+
+.message {
+  margin: 2rem 0 8rem 0;
+  height: 3rem;
+}
+
+.label-score {
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 4em;
+  color: #292f36;
+}
